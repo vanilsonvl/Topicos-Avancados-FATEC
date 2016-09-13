@@ -7,7 +7,7 @@ import producao.HelloWorld;
 
 public class TesteHelloWorld {
 	@Test
-	public void testarHelloWorld(){
+	public void testarHelloWorld() {
 		HelloWorld hw = new HelloWorld();
 		Assert.assertEquals("Hello World", hw.print());
 	}
